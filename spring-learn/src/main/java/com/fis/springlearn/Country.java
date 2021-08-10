@@ -29,9 +29,9 @@ public class Country {
 		this.name = name;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Country [code=" + code + ", name=" + name + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Country [code=" + code + ", name=" + name + "]";
+	}
 
 }
