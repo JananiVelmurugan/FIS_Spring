@@ -1,4 +1,4 @@
-package com.fis.springlearn.bean.controller;
+package com.fis.springlearn.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-import com.fis.springlearn.bean.service.EmployeeService;
+import com.fis.springlearn.service.EmployeeService;
 
 @Component
 @Configuration
