@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 import com.fis.springlearn.service.EmployeeService;
 
 @Component
-@Configuration
 @ComponentScan("com.fis.springlearn")
 public class EmployeeController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(EmployeeController.class);
